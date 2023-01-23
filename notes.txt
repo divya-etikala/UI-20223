@@ -1,0 +1,125 @@
+UI - user interface 
+
+
+UX - user expereince 
+
+mockups - zeplin, figma etc
+
+
+screen - how the screen locks - not interactble - static - kind of image 
+
+
+UI team
+backend team
+QA team
+
+
+backend team - business logic - prices
+
+UI team - converting those mockups to user unteractable websites/web apps - backend - we are going to diplay - user inreacts - sending those details backeend
+
+QA Team - test - deploy production
+
+
+UI 
+
+html5 , - tags - 
+css3- colorful, attractive website
+JAVAscript - interactive 
+
+JAVAscript
+we can create everythign - web sites, ios app, android app, backend too
+
+ios/android - reactive native/ ionic 
+bakend - node , express, sails, happier
+websites - angular/react
+
+
+html, css, javascript 
+
+
+html - 3
+github - 2
+css - 3
+javascript - 10 - 15
+Angular/react - 7-10
+
+JIRA - task tracker 
+
+PO - assign tasks - not yet started - inprogress - QA - UAT - done 
+
+1 Session - what are the things we required initital - 
+
+es6/7 - echmascript
+
+react 18
+ANgular 13/14
+css3
+html5
+
+performance
+lazy loading 
+
+Accessibility - 
+
+
+visual studio code - vsCode
+
+
+SEO - search enginene optimization
+
+24hrs
+
+server
+
+
+i/p address - 102.103.014.155
+
+dns - domain name space
+
+amazon
+walmart
+ivish
+lacework
+
+lacework.com
+amazon.com
+
+server - i/paddress- 
+private - public 
+
+public i/p
+
+dns - 
+
+naming - i/p address
+
+lacework.com - i.padress - public - private - retrive website 
+
+meta keywords - 24 hrs
+
+google internal - keyworfs - website - ranking 1 -
+
+shopping cart - walmart - 1
+                amazon - 2
+
+unique names - 
+
+sematic - 
+non-sematic -  div, span 
+block elements - it will take entire line
+inline elements - it will take the space what it requires
+
+
+sematic tags - header,footer, article, aside 
+
+attributes -
+
+
+code base - 
+
+task 6709 - 6709 
+
+branch 
+
+self closing tag
