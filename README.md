@@ -31,5 +31,3 @@ merge conflicts resolve it
 
 
 git commit --amend
-
-git revert HEAD
