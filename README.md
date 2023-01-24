@@ -18,3 +18,10 @@ git push - getting the code from the master
 git checkout -- fileName (revert the changes)
 
 git reset fileName(removes the file from current commit)
+
+git merge is merging one branch to other
+
+
+chaitanya - chaitanyatest - working 
+dependency on chaitanya 
+praveen - UI - 
