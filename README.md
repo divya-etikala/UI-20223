@@ -25,3 +25,5 @@ git merge is merging one branch to other
 chaitanya - chaitanyatest - working 
 dependency on chaitanya 
 praveen - UI - 
+
+merge conflicts resolve it
