@@ -18,3 +18,8 @@ git push - getting the code from the master
 git checkout -- fileName (revert the changes)
 
 git reset fileName(removes the file from current commit)
+<doctype html>
+<head></head>
+<body>
+hello world
+</body>
