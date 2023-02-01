@@ -1,0 +1,26 @@
+
+p {
+    color: blue;
+}
+div {
+    color: green !important;
+    font-size: 30px;
+    background-color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    font: "italic 800";
+}
+
+.test {
+    color: #c5a3a3;
+}
+
+#high {
+    color: blue;
+}
+body {
+    background-image: url('./../test.png');
+    background-repeat: no-repeat;
+    background-position: 100px;
+    background-size: 100px;
+}

@@ -1,0 +1,57 @@
+div {
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+    width: 20%;
+    height: 50px;
+    /*padding: 5px 8px;
+    margin: 5px 7px 8px;*/
+    padding-left: 5px;
+    padding-right: 6px;
+    text-align: center;
+    display: inline-block;
+    /*display: inline;*/
+}
+
+span {
+    border: 1px solid red;
+    padding: 3px;
+    margin: 5px;
+    display: block;
+}
+.div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.div2 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.visible {
+    visibility: hidden;
+}
+
+/**
+divW = width+PL+PR+BL+BR+ML+MR;
+divH = height+PT+PB+BT+BB+MT+MB;
+50px+5+5+1+1+5+5 = 72
+=72
+padding-left: 5px;
+padding-right: 6px;
+padding-borrom: 5px;
+first top & bottom
+last right&left
+
+first top 
+second right&left
+third bottom
+1. complete block like block element
+2. widht what it is required like inline
+3. width what we have defined inline-block
+4. remove the element from HTML - none
+*/

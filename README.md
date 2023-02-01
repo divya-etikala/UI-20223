@@ -31,3 +31,29 @@ merge conflicts resolve it
 
 
 git commit --amend
+
+
+RWD - responsive web design
+html - for all devices - css 
+PWA - progreesive web apps
+mobile.html, desktop.html, tab.html
+
+RWD - responsive web design
+
+
+3 ways
+1. inline -- with the element
+2. internal
+3. external
+
+order
+ inline > internal > external
+
+ tag Name
+ class attribute
+ id attribute
+
+id > class > tag
+
+
+!important > id > class > tag

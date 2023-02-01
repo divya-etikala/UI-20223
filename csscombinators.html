@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combinators</title>
+        <style>
+           div p {
+               color: blue;
+           }
+
+           div > p {
+               color: red;
+           }
+           div + p {
+               color: green;
+           }
+
+           div ~ p {
+               color: yellow;
+           } 
+        </style>
+    </head>
+    <body>
+            <p>world1</p>
+        <div>
+            <p>Hello</p>
+            <p>Hello1</p>
+            <p>Hello2</p>
+            <div><p>Hello3</p></div>
+            <p>Test</p>
+        </div>
+
+            <p>world2</p>
+            <p>world3</p>
+            <a><p>Test</p></a>
+            <p>Test 123</p>
+    </body>
+</html>
+ 
