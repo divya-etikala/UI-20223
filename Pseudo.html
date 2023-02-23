@@ -22,10 +22,12 @@
              background-color: blue;
          }
          p::after {
-             content: 'test';
+             background-image: url("./test.png");
              background-size: 10px 20px;
+             background-repeat: no-repeat;
              width: 10px;
              height: 20px;
+             content: "";
          }
          p::first-line {
              color: blue;
@@ -83,7 +85,7 @@
             Hello world;alsdjfklasmnf.,acxmzlfmds;xzmfcsz
         </p>
         <p>sadfsaf</p>
-        <img src="./test.png"/>
+        <!--<img src="./test.png"/>-->
         <p>Hello world</p>
     </body>
     </html>

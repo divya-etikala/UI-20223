@@ -1,0 +1,41 @@
+4*5*6*7 - process
+4*5 0ne thread 6*7 onethread
+20*42 one thread
+840
+
+Javascript is single thread 
+
+asynchronous prgrammings
+
+
+synchrous - asynchrous
+
+4+5 - api call - display the result 4*5 - display the result of BR
+
+4+5 -9
+api call 
+9
+display 
+
+4+5 - 9
+api call - background run the process
+9
+api calll is coplete
+it will display 
+
+client side validation - 
+
+Dl - numbers 8 - digits 
+DL is esist valida dl or not 
+
+Manipulating HTML - 
+
+User notifaction - popups/push notifications 
+data loading - once data loaded we need to display 
+
+
+<script src=""></script>
+
+<script>
+</script>
+

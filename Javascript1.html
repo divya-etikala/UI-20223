@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            document.write('hello world');
+            var a  = 10;
+            //console.log('Hello');
+            var b= 10;
+            // if(a != 10) {
+            //     b = 15;
+            // } else if(a == 10){
+            //     b = 5;
+            // } else {
+            //     b = 2;
+            // }
+            // console.log(a+b);
+            // for(var i=0;i<5;i++){
+            //     console.log(i);
+            // }
+            // var i=0;
+            // while(i<5){
+            //     console.log('while'+i);
+            //     i++;
+            // }
+            var i =1;
+            // if(1) {
+            //     console.log('hello');
+            // }
+            // do {
+            //     console.log('Hello'+ 'do while');
+            // }while(i < 1);
+            // while(i<1) {
+            //     console.log('while');
+            // }
+            /**
+            AND  -&& - both should be true - true or else false
+            OR - || - any of them is true - true 
+            Not - ! - true - false 
+            */
+            function test() {
+                var c = 10;
+                // var confimVal =  confirm('do you want to continue?');
+                // alert(confimVal);
+                 var promptBox = prompt('Please enter your name');
+                 document.getElementById("userName").value = promptBox;
+                // alert(promptBox);
+                // alert(document.getElementById("test").style.color);
+                // document.getElementById("test").style.color = "red";
+                // alert(document.getElementById("test").style.color);
+                //alert('calling function');
+                // if(a === 10 && c=== 10)
+                //    console.log('AND operator');
+                // if(a === 1 || c=== 10)
+                //    console.log('OR operator');
+
+                for(var i=0; i<10;i++) {
+                    console.log(i);
+                    if(i===5 || i=== 9)
+                        continue;
+                    console.log('Hello');
+                }
+                // switch(i) {
+                //     case 0:
+                //     console.log('case 0');
+                //     case 1: 
+                //     console.log('case 1');
+                //     default:
+                //       console.log('default');
+                // }
+            }
+
+            function test1() {
+                console.log('onmouseover');
+            }
+            function change() {
+                console.log('changed');
+            }
+            function focus(){
+                console.log('focused');
+            }
+            function keypress() {
+                console.log('keypress');
+            }
+            function submit(event) {
+                alert('test');
+                return false;
+                console.log(event);
+                console.log('submitted');
+            }
+            /**
+            boolean, number, string, null, undefined
+            es means echmascript
+            es6&7
+            */
+
+        </script>
+        <noscript>
+            please enable javascript
+        </noscript>
+    </head>
+    <body>
+        <form onsubmit="submit(event);">
+            <input type="submit"/>
+        </form>
+        <input type="text" id="userName" onkeypress="keypress()" onblur="change()" onfocus="focus()"/>
+        <button onclick="test()" onmouseover="test1()">Test</button>
+        <p id="test">Test</p>
+    </body>
+</html>
