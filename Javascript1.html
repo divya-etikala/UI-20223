@@ -5,7 +5,7 @@
             document.write('hello world');
             var a  = 10;
             //console.log('Hello');
-            var b= 10;
+            var b = 10;
             // if(a != 10) {
             //     b = 15;
             // } else if(a == 10){
@@ -36,29 +36,38 @@
             AND  -&& - both should be true - true or else false
             OR - || - any of them is true - true 
             Not - ! - true - false 
-            */
-            function test() {
-                var c = 10;
-                // var confimVal =  confirm('do you want to continue?');
-                // alert(confimVal);
-                 var promptBox = prompt('Please enter your name');
-                 document.getElementById("userName").value = promptBox;
-                // alert(promptBox);
-                // alert(document.getElementById("test").style.color);
+            //var liElement = '<li>'+promptBox+'</li>';
+                // var liElement = document.createElement('li');
+                // liElement.textContent = promptBox;
+                // document.getElementById("test").appendChild(liElement);
+                // // if(document.getElementById("test").style.display === '' || document.getElementById("test").style.display === 'block') {
+                // //     document.getElementById("test").style.display = 'none';
+                // // } else {
+                // //     document.getElementById("test").style.display = 'block';
+                // // }
                 // document.getElementById("test").style.color = "red";
-                // alert(document.getElementById("test").style.color);
-                //alert('calling function');
-                // if(a === 10 && c=== 10)
-                //    console.log('AND operator');
-                // if(a === 1 || c=== 10)
-                //    console.log('OR operator');
+                // alert('Hello');
+                // var c = 10;
+                // var confimVal =  confirm('do you want to continue?');
+                // // alert(confimVal);
+                //  var promptBox = prompt('Please enter your name');
+                // //  document.getElementById("userName").value = promptBox;
+                //  alert(promptBox);
+                // // alert(document.getElementById("test").style.color);
+                // // document.getElementById("test").style.color = "red";
+                // // alert(document.getElementById("test").style.color);
+                // //alert('calling function');
+                // // if(a === 10 && c=== 10)
+                // //    console.log('AND operator');
+                // // if(a === 1 || c=== 10)
+                // //    console.log('OR operator');
 
-                for(var i=0; i<10;i++) {
-                    console.log(i);
-                    if(i===5 || i=== 9)
-                        continue;
-                    console.log('Hello');
-                }
+                // for(var i=0; i<10;i++) {
+                //     console.log(i);
+                //     if(i===5 || i=== 9)
+                //         continue;
+                //     console.log('Hello');
+                // }
                 // switch(i) {
                 //     case 0:
                 //     console.log('case 0');
@@ -67,6 +76,21 @@
                 //     default:
                 //       console.log('default');
                 // }
+                10+10+'a' = '20a'
+                'a'+10+10 = 'a20'
+                while(1){
+                    // infinite
+                }
+                while(0){
+                    // wont execute
+                }
+            */
+            function test() {
+                //console.log(document.getElementById("test").style.display);
+                var promptBox = prompt('Please enter your hobbies');
+                console.log(document.getElementsByTagName('li'));
+                var list = document.getElementsByTagName('li');
+                list[0].innerText += ' '+promptBox;
             }
 
             function test1() {
@@ -88,7 +112,7 @@
                 console.log('submitted');
             }
             /**
-            boolean, number, string, null, undefined
+            boolean, number, string, null, undefined, object, symbol
             es means echmascript
             es6&7
             */
@@ -99,11 +123,14 @@
         </noscript>
     </head>
     <body>
-        <form onsubmit="submit(event);">
+        <form>
             <input type="submit"/>
         </form>
         <input type="text" id="userName" onkeypress="keypress()" onblur="change()" onfocus="focus()"/>
-        <button onclick="test()" onmouseover="test1()">Test</button>
-        <p id="test">Test</p>
+        <button onclick="test()">Test</button>
+        <ul id="test">
+            <li>A</li>
+            <li>B</li>
+        </ul>
     </body>
 </html>

@@ -1,9 +1,37 @@
-4*5*6*7 - process
+4*5*6*7 - process - 20*6*7 - 120*7 - 840
 4*5 0ne thread 6*7 onethread
 20*42 one thread
 840
 
 Javascript is single thread 
+
+system - movie - one movie - single process 
+multiple systems - multiple movies - yes - multi process
+
+thread - execution environment - 4+5 - 9
+
+JS - single thread - one exceution environment - it will execute only operation -
+4*5*6*7*8*9
+4*5*6*7 - 
+4*5 - first time
+20*6 - second
+ 120*7 - third
+  840 - fourth  
+4*5*6*7*8*9
+4*5 - one thread 6*7 - another thread - same time
+20*42 - one more thread
+result  multi thread enviornment 
+
+Javascript - async programing
+
+synchronous - synchornous - until class complete
+Asynchronous - listen the class - use your mobile 
+
+4*5*6*7
+4*5 - I/o 6*7 - I/o - same time - async programming 
+
+Eventloop - track all the events 
+
 
 asynchronous prgrammings
 
@@ -34,8 +62,9 @@ User notifaction - popups/push notifications
 data loading - once data loaded we need to display 
 
 
-<script src=""></script>
+<script src="./filename.js"></script>
 
 <script>
 </script>
+
 

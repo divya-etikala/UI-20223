@@ -1,0 +1,19 @@
+DOM - document object model
+  parent
+  childs
+  grandchild
+  etc
+
+  html
+  head  body
+        p div 
+
+
+DOM
+document.getElementById("") - unique
+document.getElementByClassName("") - array list
+document.getElementByTageName("") - array list
+
+change the color
+hide element
+toggle element
