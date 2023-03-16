@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <script>
+            document.write("Hello All")
+            function test() {
+                alert("calling function");
+            }
+            function test1(){
+                console.log('onmouseover');
+            }
+            function change(){
+                console.log('changed');
+            }
+            function keypress(){
+                console.log('keypress')
+            }
+            function submit(){
+                console.log('submitted');
+            }
+            function test2() {
+                console.log( document.getElementryById("test2"));
+                document.getElementryById("test2").style.color = "blue";
+            }
+        </script>
     </head>
     <body>
-        
+        <form onsubmit="submit()">
+            <input type="submit"/>
+        </form>
+        <input type="text" onkeypress= "keypress()" onchange="change()" />
+        <button onclick = "test()">Test</button>
+        <p id="test2">Test</p>
     </body>
 </html>
