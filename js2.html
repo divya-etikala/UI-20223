@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            const countries = ["a","b"]
+            countries.splice(1,0,'c');
+            console.log(countries)
+
+            function checkPalindrome(str) {
+                const len = str.length;
+                for (let i = 0; i < len / 2; i++) {
+                    if (str[i] !== str[len - 1 - i]) {  
+              return 'It is not a palindrome'; 
+                    }
+                }
+              return('it is a palindrome');
+        }  
+            const string = prompt('Enter a string or number to check for Palindrome: ');  
+  
+            const value = checkPalindrome(string);  
+            console.log(value);
+            const quantity = "12";
+
+            console.log(+quantity)
+        </script>
+    </head>
+</html>
